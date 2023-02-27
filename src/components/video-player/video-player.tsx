@@ -30,7 +30,7 @@ const VideoPlayer = () => {
     const { classes } = useStyles();
 
     // TODO: Create a type for the context
-    const { name, callAccepted, myVideo, userVideo, callEnded, stream, call } = useContext(SocketContext) as any;
+    const { name, callAccepted, myVideo, userVideo, callEnded, call } = useContext(SocketContext) as any;
 
     console.log(myVideo);
 
