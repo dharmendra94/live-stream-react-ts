@@ -12,7 +12,7 @@ function App() {
     return (
         <div>
             <AppBar position="static" color="inherit">
-                <Typegraphy variant="h2" align="center">One to one video (Live stream coming soon..)</Typegraphy>
+                <Typegraphy variant="h2" align="center">One to one video</Typegraphy>
             </AppBar>
             <VideoPlayer></VideoPlayer>
             <Options>
